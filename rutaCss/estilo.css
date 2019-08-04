@@ -1,19 +1,15 @@
-/*
-#hola p{
-    color: hotpink;
-}
-#hola span{
-    color: darkblue;
-}
-#hola div p{
-    color: crimson;
-}
-*/
+h1 {
+  color: #fe2e64;
+  background-color: #bdbdbd; }
+
 #hola p {
-  color: hotpink; }
+  color: #cc2efa;
+  background-color: #424242; }
 #hola span {
-  color: darkblue; }
+  color: #81f7be;
+  background-color: #2e2e2e; }
 #hola div p {
-  color: crimson; }
+  color: #cc2efa;
+  background-color: #424242; }
 
 /*# sourceMappingURL=estilo.css.map */

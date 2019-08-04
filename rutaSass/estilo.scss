@@ -1,24 +1,26 @@
-/*
-#hola p{
-    color: hotpink;
+$cabeceraColor: #fe2e64;
+$cabeceraFondo: #bdbdbd;
+$parrafosColor: #cc2efa;
+$parrafosFondo: #424242;
+$spanColor: #81f7be;
+$spanFondo: #2e2e2e;
+h1 {
+  color: $cabeceraColor;
+  background-color: $cabeceraFondo;
 }
-#hola span{
-    color: darkblue;
-}
-#hola div p{
-    color: crimson;
-}
-*/
 #hola {
   p {
-    color: hotpink;
+    color: $parrafosColor;
+    background-color: $parrafosFondo;
   }
   span {
-    color: darkblue;
+    color: $spanColor;
+    background-color: $spanFondo;
   }
   div {
     p {
-      color: crimson;
+      color: $parrafosColor;
+      background-color: $parrafosFondo;
     }
   }
 }
