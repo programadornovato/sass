@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,KAAK;EACD,KAAK,EAAE,IAAI",
+"mappings": "AAAA;;;;;;;;;;EAUE;AAEA,OAAE;EACA,KAAK,EAAE,OAAO;AAEhB,UAAK;EACH,KAAK,EAAE,QAAQ;AAGf,WAAE;EACA,KAAK,EAAE,OAAO",
 "sources": ["../rutaSass/estilo.scss"],
 "names": [],
 "file": "estilo.css"

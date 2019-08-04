@@ -1,4 +1,19 @@
-#hola {
-  color: blue; }
+/*
+#hola p{
+    color: hotpink;
+}
+#hola span{
+    color: darkblue;
+}
+#hola div p{
+    color: crimson;
+}
+*/
+#hola p {
+  color: hotpink; }
+#hola span {
+  color: darkblue; }
+#hola div p {
+  color: crimson; }
 
 /*# sourceMappingURL=estilo.css.map */
