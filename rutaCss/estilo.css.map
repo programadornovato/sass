@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAMA,EAAG;EACD,KAAK,EAPS,OAAO;EAQrB,gBAAgB,EAPF,OAAO;;AAUrB,OAAE;EACA,KAAK,EAVO,OAAO;EAWnB,gBAAgB,EAVJ,OAAO;AAYrB,UAAK;EACH,KAAK,EAZG,OAAO;EAaf,gBAAgB,EAZR,OAAO;AAef,WAAE;EACA,KAAK,EAnBK,OAAO;EAoBjB,gBAAgB,EAnBN,OAAO",
-"sources": ["../rutaSass/estilo.scss"],
+"mappings": "AAAA,EAAG;EACC,KAAK,ECDO,OAAO;EDEnB,gBAAgB,ECDJ,OAAO;;ADInB,OAAE;EACA,KAAK,ECJK,OAAO;EDKjB,gBAAgB,ECJN,OAAO;ADMnB,UAAK;EACH,KAAK,ECNC,OAAO;EDOb,gBAAgB,ECNV,OAAO;ADSb,WAAE;EACA,KAAK,ECbG,OAAO;EDcf,gBAAgB,ECbR,OAAO;;ACCvB;;EAEE",
+"sources": ["../rutaSass/_estructura.scss","../rutaSass/_colores.scss","../rutaSass/estilo.scss"],
 "names": [],
 "file": "estilo.css"
 }

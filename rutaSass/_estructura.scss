@@ -1,0 +1,21 @@
+h1 {
+    color: $cabeceraColor;
+    background-color: $cabeceraFondo;
+  }
+  #hola {
+    p {
+      color: $parrafosColor;
+      background-color: $parrafosFondo;
+    }
+    span {
+      color: $spanColor;
+      background-color: $spanFondo;
+    }
+    div {
+      p {
+        color: $parrafosColor;
+        background-color: $parrafosFondo;
+      }
+    }
+  }
+  
