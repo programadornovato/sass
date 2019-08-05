@@ -1,0 +1,14 @@
+@mixin forma($color:#111,$ancho:100px,$alto:100px) {
+    background-color:$color;
+    width: $ancho;
+    height: $alto;
+}
+#rec1{
+    @include forma(red,300px,50px);
+}
+#rec2{
+    @include forma(#aaa,400px,20px);
+}
+#rec3{
+    @include forma(green,100px,50px);
+}
