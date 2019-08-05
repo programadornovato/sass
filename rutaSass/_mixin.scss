@@ -3,12 +3,14 @@
     width: $ancho;
     height: $alto;
 }
+$color:#333;
+$colores:(#333,#666,#888,#aaa);
 #rec1{
-    @include forma(red,300px,50px);
+    @include forma(nth($colores,4),300px,50px);
 }
 #rec2{
-    @include forma(#aaa,400px,20px);
+    @include forma($color*2,400px,20px);
 }
 #rec3{
-    @include forma(green,100px,50px);
+    @include forma($color*4,100px,50px);
 }
