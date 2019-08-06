@@ -1,15 +1,30 @@
 #rec1 {
-  background-color: #333;
+  background-color: red;
   width: 300px;
   height: 50px; }
 
 #rec2 {
-  background-color: #666;
+  background-color: green;
   width: 300px;
   height: 50px; }
 
 #rec3 {
-  background-color: #888;
+  background-color: green;
+  width: 300px;
+  height: 50px; }
+
+#rec4 {
+  background-color: red;
+  width: 300px;
+  height: 50px; }
+
+#rec5 {
+  background-color: green;
+  width: 300px;
+  height: 50px; }
+
+#rec6 {
+  background-color: green;
   width: 300px;
   height: 50px; }
 

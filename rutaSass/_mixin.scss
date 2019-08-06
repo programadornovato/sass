@@ -3,12 +3,18 @@
     width: $ancho;
     height: $alto;
 }
-$colores:(#333,#666,#888);
-
-@for $i from 1 through length($colores) {
-    @debug "Val de i="+$i;
+//$colores:(#333,#666,#888);
+$color:null;
+@for $i from 1 through 6 {
+    @debug ""+$i+"%3="+$i%3;
+    @if($i%3==1){
+        $color:red;
+    }
+    @else{
+        $color:green;
+    }
     #rec#{$i}{
-        @include forma(nth($colores,$i),300px,50px);
+        @include forma($color,300px,50px);
     }        
 }
 
