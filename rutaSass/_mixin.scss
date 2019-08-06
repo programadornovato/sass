@@ -3,14 +3,28 @@
     width: $ancho;
     height: $alto;
 }
-$color:#333;
-$colores:(#333,#666,#888,#aaa);
-#rec1{
-    @include forma(nth($colores,4),300px,50px);
+$colores:(#333,#666,#888);
+
+@for $i from 1 through length($colores) {
+    @debug "Val de i="+$i;
+    #rec#{$i}{
+        @include forma(nth($colores,$i),300px,50px);
+    }        
 }
-#rec2{
-    @include forma($color*2,400px,20px);
-}
-#rec3{
-    @include forma($color*4,100px,50px);
-}
+
+// @each $color in $colores {
+//     $i:index($colores , $color );
+//     #rec#{$i}{
+//         @include forma($color,300px,50px);
+//     }            
+// }
+
+// #rec1{
+//     @include forma(nth($colores,4),300px,50px);
+// }
+// #rec2{
+//     @include forma($color*2,400px,20px);
+// }
+// #rec3{
+//     @include forma($color*4,100px,50px);
+// }
